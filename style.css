@@ -4,18 +4,21 @@ p {text-align: left;}
 li {text-align: left;}
 
 body 
-{
+body {
+	background-image: url('paper.gif');
+}
+/*{
 	background: #444444;
 	color: #000000;
 	font-family: "Linux Libertine Capitals", Arial, Helvetica, sans-serif;
 	line-height: 1.5;            
-}
+}*/
 .page 
 {
 	max-width: 800px;
 	margin: auto;
 	padding: 25px;
-	background: #FFFFFF;
+	background: #5a2020;
 }
 
 /* barre de navigation */
