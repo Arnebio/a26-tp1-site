@@ -1,42 +1,49 @@
+@import url("https://fonts.cdnfonts.com/css/road-rage");
 
-h1, h2, h3 { text-align: center; }	
-p {text-align: left;}
-li {text-align: left;}
+h1,
+h2,
+h3 {
+  text-align: center;
+}
+p {
+  text-align: left;
+}
+li {
+  text-align: left;
+}
 
-body
-{
-	background-image: url('paper.gif');
-	/* background: #444444; */
+body body {
+  background-image: url("Background image\Asphalt_2.jpg");
+}
+/*{
+	background: #444444;
 	color: #000000;
 	font-family: "Linux Libertine Capitals", Arial, Helvetica, sans-serif;
 	line-height: 1.5;            
-}
-.page 
-{
-	max-width: 800px;
-	margin: auto;
-	padding: 25px;
-	background: #5a2020;
+}*/
+.page {
+  max-width: 800px;
+  margin: auto;
+  padding: 25px;
+  background: #5a2020;
 }
 
 /* barre de navigation */
-	.nav-bar 
-	{
-		background-color: #343434;
-		overflow: hidden;
-	}
-	/* couleur de la page active */
-	.nav-bar a.active 
-	{
-		background-color: #8080FF;
-		color: white;
-	}
-	.nav-bar a
-	{
-		float: left;
-		color: #f2f2f2;
-		text-align: center;
-		padding: 12px 12px;
-		text-decoration: none;
-		font-size: 17px;
-	}
+.nav-bar {
+  background-color: #343434;
+  overflow: hidden;
+}
+/* couleur de la page active */
+.nav-bar a.active {
+  background-color: #77aa8b;
+  color: #ff2d55;
+  font-family: "Road Rage", sans-serif;
+}
+.nav-bar a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 12px 12px;
+  text-decoration: none;
+  font-size: 17px;
+}
