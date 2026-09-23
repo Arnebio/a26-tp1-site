@@ -47,6 +47,7 @@ body {
 	text-align: center;
 	padding: 12px 12px;
 	width: 110px;	/* fixed width (size) */
+	height: 25px;	/* fixed height (size) */
 	text-decoration: none;
 	font-size: 17px;
 }
