@@ -13,8 +13,18 @@ p {
 li {
 	text-align: left;
 }
+.boite {
+	background-color: #101010;
+	color: #fdffff;
+	font-family: "Road Rage", sans-serif;
+	font-size: 45 px;
+	padding: 10px;
+	margin: 5px;
+	border-radius: 15px;
+	border: 2px solid #8fb0449a;
+}
 
-l2 {
+.cooper {
 	font-size: 50px;
 	text-align: center;
 	font-family: "Cooper Black", sans-serif;
