@@ -23,19 +23,24 @@ li {
 	border-radius: 15px;
 	border: 2px solid #8fb0449a;
 }
-
+.explaination{
+	color: #fdffff;
+	font-family: "American Typewriter", sans-serif;
+	font-size: 15 px;
+}
 .cooper {
 	font-size: 50px;
 	text-align: center;
 	font-family: "Cooper Black", sans-serif;
 	color:#000000;
 }
-m1 {
+.mater {
 	font-size: 50px;
 	text-align: center;
 	font-family: "American Typewriter, serif";
 	color:#ffffff;
 }
+
 
 body {
 	background: #121212;
