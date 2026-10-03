@@ -94,3 +94,68 @@ body {
 	text-decoration: none;
 	font-size: 17px;
 }
+
+
+
+
+/* style utilises pour les cartes dans src/luigi/luigi_shop.html */
+.cartes {
+	display: flex;
+	align-items: center;
+
+	/* The important part */
+	padding: 34px 12px;
+	gap: -1px;
+
+	min-height: 370px;
+	overflow: hidden;
+}
+
+
+.carte {
+	position: relative;
+	flex: 0 0 320px;
+	height: 300px;
+
+	padding: 32px 26px;
+	border-radius: 15px;
+
+	background:	rgba(240, 240, 240, 0.8);
+
+	border: 1px solid rgba(255, 255, 255, .035);
+
+	box-shadow:
+		0 20px 40px rgba(0, 0, 0, .25),
+		inset 0 1px 0 rgba(255, 255, 255, .025);	
+
+	/* pour que elles se supperpose */
+	margin-right: -12px;
+
+	transition:
+		transform 0.35s cubic-bezier(.2, .8, .2, 1),	/* controle du ~~*rythme~~ de vitesse */
+		filter 0.35s ease;
+}
+
+/* modifier les cartes individuellement 
+ * rotation basee sur sa position dans le array */
+.carte:nth-child(even) {
+	transform: rotate(-4deg) translateY(8px);
+}
+.carte:nth-child(odd) {
+	transform: rotate(4deg) translateY(8px);
+}
+
+.carte:hover {
+	background:	rgba(255, 255, 255, 0.9);
+	transform: scale(1.05);	/* scale et tourne droit */
+	z-index: 20;
+	filter: brightness(1.15);
+}
+
+img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 30px;
+	width: 150;
+}
