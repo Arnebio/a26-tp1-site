@@ -59,9 +59,9 @@ body {
 	background: hwb(27 45% 18%);
 }
 .luigi {
-	max-width: 800px;
+	max-width: 1000px;
 	margin: auto;
-	padding: 25px;
+	padding: 40px;
 	background-image: url('imgs/Luigi_tire_shop.jpg')
 }
 
